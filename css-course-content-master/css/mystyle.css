@@ -1,0 +1,50 @@
+body{
+    background: rgb(0, 255, 0);
+}
+
+#title{
+    color:rgb(255, 255, 0);
+}
+
+h2{
+    color:red;
+}
+
+.bluesubtitle{
+    color:blue
+}
+
+#orangeID{
+    color:orange;
+}
+
+li:only-child{
+    color:green;
+}
+
+/*#ruizhan:link{
+    color:cyan;
+}
+
+#ruizhan:visited{
+    color:purple;
+}*/
+
+a ~ li{
+    font-style:italic;
+}
+
+#service-image{
+    height: 500px;
+    width:80%;
+    /*background: linear-gradient(to right, red, rgb(0,255,0), yellow);
+    background: radial-gradient(red 20%, blue, yellow);*/
+    background: url("../img/img-2.jpg");
+    background-repeat:no-repeat;
+    /*background-size: cover;*/
+    border: 6px solid rgb(114,51,4);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+}

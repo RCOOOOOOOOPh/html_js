@@ -1,0 +1,13 @@
+<button type="button" onclick="alert('iiyo, koiyo!')">114514</button>
+
+<script>
+function changeImage()
+{
+element = document.getElementById('yajuusenpai')
+if (element.src.match("ikuiku"))
+{element.src = "senpai.jpeg";}
+else
+{element.src = "ikuiku.jpeg";}
+}
+</script>
+<img loading="lazy" id="yajuusenpai" onclick="changeImage()" src="senpai.jpeg" width="200" height="200">
